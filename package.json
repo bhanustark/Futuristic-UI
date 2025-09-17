@@ -1,7 +1,7 @@
 {
-  "name": "future-ui",
-  "private": true,
-  "version": "0.0.1",
+  "name": "futuristic-ui",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
