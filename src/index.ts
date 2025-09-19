@@ -1,3 +1,6 @@
+// Import CSS for the library
+import "./index.css";
+
 // Basic components with default exports
 export { default as Button } from "./components/Button";
 export { default as Checkbox } from "./components/Checkbox";

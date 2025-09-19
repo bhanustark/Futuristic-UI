@@ -7,6 +7,6 @@
     "noEmit": false,
     "emitDeclarationOnly": true
   },
-  "include": ["src/index.ts", "src/components/**/*", "src/hooks/**/*"],
+  "include": ["src/index.ts", "src/components/**/*", "src/hooks/**/*", "src/vite-env.d.ts"],
   "exclude": ["src/main.tsx", "src/App.tsx", "**/*.test.*", "**/*.stories.*"]
 }

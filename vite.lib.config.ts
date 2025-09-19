@@ -24,5 +24,7 @@ export default defineConfig({
     },
     // Ensure CSS is included in the build
     cssCodeSplit: false,
+    // Generate source maps for better debugging
+    sourcemap: true,
   },
 });

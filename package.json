@@ -1,7 +1,7 @@
 {
   "name": "futuristic-ui",
   "private": false,
-  "version": "0.0.10",
+  "version": "0.0.12",
   "type": "module",
   "main": "./dist/futuristic-ui.umd.js",
   "module": "./dist/futuristic-ui.es.js",
@@ -12,7 +12,7 @@
       "import": "./dist/futuristic-ui.es.js",
       "require": "./dist/futuristic-ui.umd.js"
     },
-    "./style.css": "./dist/style.css"
+    "./style.css": "./dist/futuristic-ui.css"
   },
   "files": [
     "dist"
@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:lib": "tsc -p tsconfig.lib.json && vite build --config vite.lib.config.ts",
+    "build:lib": "vite build --config vite.lib.config.ts && tsc -p tsconfig.lib.json",
     "pack": "npm pack --dry-run",
     "publish": "npm publish",
     "lint": "eslint .",
