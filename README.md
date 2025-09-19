@@ -1,5 +1,7 @@
 # Using Futuristic UI
 
+Demo: [Futuristic UI](https://futuristicui.com)
+
 ## Installation
 
 ### Option 1: From npm (after publishing)

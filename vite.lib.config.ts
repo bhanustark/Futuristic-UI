@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: "FutureUI",
+      name: "FuturisticUI",
       fileName: (format) => `futuristic-ui.${format}.js`,
       formats: ['es', 'umd']
     },
