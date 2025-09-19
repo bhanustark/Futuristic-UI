@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/index.ts", "src/components/**/*", "src/hooks/**/*"],
+  "exclude": ["src/main.tsx", "src/App.tsx", "**/*.test.*", "**/*.stories.*"]
+}
